@@ -23,6 +23,6 @@
 //       }
 
 // conditionals 4
-// let age = 55;
+// let age = 25;
 // let eligibility = "Are you are eligible for an over 50s life plan? " + (age > 50 ? "YES! Apply Now." : "No, you are too young.");
 // console.log(eligibility);
