@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>View Database</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+    </head>
+
+    <body>
+        <form action="jdbc:mysql://localhost:3306/furniture" method="GET">
+        <script src="Day1.js"></script>
+        <h1>View Item In Database:</h1>
+        
+        <fieldset>
+            <legend>Enter new item data here:</legend>
+            <label for="type">Furniture Type</label>
+            <input id="furniture_type" type="text" name="furniture_type">
+        </br>
+            <label for="material">Furniture Material</label>
+            <input type="material" id="furniture_material" name="furniture_material"/>
+        </br> 
+            <label for="cost">Retail Value</label>
+            <input type="cost" id="furniture_cost" name="furniture_cost"/>
+        
+        </fieldset>
+        <button type="submit">Click here to add data to the database!
+    </form>
+ 
+    </body>
+</html>
